@@ -18,6 +18,7 @@ export default function Home() {
           <div className="text-4xl">
             {!user.isSignedIn && <SignInButton />}
             {!!user.isSignedIn && <SignOutButton />}
+            {/* sigin button */}
           </div>
         </div>
         <SignIn path="/sign-in" routing="path" signUpUrl="/sign-up" />
